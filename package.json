@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alejandroge/wolf/issues"
   },
-  "homepage": "https://github.com/alejandroge/wolf#readme"
+  "homepage": "https://github.com/alejandroge/wolf#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
