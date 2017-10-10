@@ -1,3 +1,3 @@
-## Wolf
+# Wolf
 
-WEB MEAN course
+MEAN Web course
