@@ -1,6 +1,12 @@
-console.log('Hola Mundo!', 'Fuck yeah!');
+// My first Web App
 
-var nombre = "Alejandro";
-var nick = 'alexmetalplayer';
+const express = require('express')
+const app = express()
 
-console.log(nombre, 'es', nick);
+app.get('/', function (req, res) {
+  res.send('Hello World!')
+})
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!')
+})
